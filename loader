@@ -46,7 +46,7 @@ elseif gameId == 4363131662 then
     print("WiiHub Worm2048 loaded successfully")
 
 else
-
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b6fb75a5a9a8c69b316cab201e9e3e0d.lua"))()
     print("Unsupported Game")
 
 end
