@@ -1,0 +1,52 @@
+local gameId = game.GameId
+
+if gameId == 3150475059 then
+
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ae28859a928396a5f09f847895ec4fb9.lua"))()
+    print("WiiHub Football Fusion 2 loaded successfully")
+    
+elseif gameId == 2766122154 then
+
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/def49ec3ea7cf62237e9bb9322df6290.lua"))()
+    print("WiiHub Football Duels loaded successfully")
+
+elseif gameId == 601130232 then
+
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5a326525c3c96db44069e25411625c75.lua"))()
+    print("WiiHub Bee Swarm Simulator loaded successfully")
+
+elseif gameId == 111958650 then
+
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e289dedbe727c48af275692ba9066a4f.lua"))()
+    print("WiiHub Arsenal loaded successfully")
+
+elseif gameId == 2382284116 then
+
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/92d619de4e7420a149ab816692d0d762.lua"))()
+    print("WiiHub No Scope Arcade loaded successfully")
+
+elseif gameId == 2249486280 then
+
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/93bd9f8ccfa396a3f2ca7fb50f091b21.lua"))()
+    print("WiiHub Auto 3s loaded successfully")
+
+elseif gameId == 2618778158 then
+
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/93bd9f8ccfa396a3f2ca7fb50f091b21.lua"))()
+    print("WiiHub Auto 3s loaded successfully")
+
+elseif gameId == 184199275 then
+
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/40e7bfc5cda000bca4b42a990857f65b.lua"))()
+    print("WiiHub UF loaded successfully")
+
+elseif gameId == 4363131662 then
+
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b6fb75a5a9a8c69b316cab201e9e3e0d.lua"))()
+    print("WiiHub Worm2048 loaded successfully")
+
+else
+
+    print("Unsupported Game")
+
+end
