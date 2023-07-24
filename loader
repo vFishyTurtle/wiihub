@@ -46,6 +46,11 @@ elseif gameId == 4363131662 then
     print("WiiHub Worm2048 loaded successfully")
 
 elseif gameId == 4476467139 then
+    for k,v in pairs(getgc(true)) do
+    	if pcall(function() return rawget(v,"indexInstance") end) and type(rawget(v,"indexInstance")) == "table" and  (rawget(v,"indexInstance"))[1] == "kick" then
+    		v.tvk = {"kick",function() return game.Workspace:WaitForChild("") end}
+    	end
+     end
 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/56821685103fc947edb56b02e6b2553a.lua"))()
     print("WiiHub HeadTap loaded successfully")
