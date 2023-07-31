@@ -2,7 +2,6 @@ local gameId = game.GameId
 
 if gameId == 3150475059 then
 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/vFishyTurtle/UI-Libraries/main/loader"))()
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ae28859a928396a5f09f847895ec4fb9.lua"))()
     print("WiiHub Football Fusion 2 loaded successfully")
     
