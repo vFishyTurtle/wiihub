@@ -70,6 +70,11 @@ elseif gameId == 1187091887 then
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/56821685103fc947edb56b02e6b2553a.lua"))()
 print("WiiHub Weaponry loaded successfully")
 
+elseif gameId == 4931927012 then
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c9631ff417070d91b94c6b2d65a3a3f9.lua"))()
+print("WiiHub Basketball Legends loaded successfully")
+
 else
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b6fb75a5a9a8c69b316cab201e9e3e0d.lua"))()
     print("Unsupported Game")
