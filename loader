@@ -15,7 +15,7 @@ elseif gameId == 601130232 then
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5a326525c3c96db44069e25411625c75.lua"))()
     print("WiiHub Bee Swarm Simulator loaded successfully")
 
-elseif gameId == 601130232 then
+elseif gameId == 4777817887 then
 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4d33bf84ab35405e0844bdf344cb5c97.lua"))()
     print("WiiHub BladeBall loaded successfully")
