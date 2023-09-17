@@ -76,7 +76,6 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/56821685103fc9
 print("WiiHub Weaponry loaded successfully")
 
 elseif gameId == 4931927012 then
-
 for i,v in next, getgc() do
     if type(v) == "function" and islclosure(v) and not isexecutorclosure(v) then
         if getinfo(v).source:find(".Init") then
@@ -84,8 +83,113 @@ for i,v in next, getgc() do
         end
     end
 end
-wait(.1)
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c9631ff417070d91b94c6b2d65a3a3f9.lua"))()
+
+wait(.5)
+
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/drillygzzly/Roblox-UI-Libs/main/Void%20Lib/Void%20Lib%20Source.lua"))()
+
+local main = library:Load{
+    Name = "WiiHub",
+    SizeX = 200,
+    SizeY = 200,
+    Theme = "Midnight",
+    Extension = "json", -- config file extension
+    Folder = nil -- config folder name
+}
+
+local settings = {
+	autotime = false,
+	mags = false,
+	autoguard = false
+}
+
+local tab = main:Tab("Main")
+
+local section = tab:Section{
+    Name = "Features",
+    Side = "Left"
+}
+
+local toggle = section:Toggle{
+    Name = "Auto Time",
+    Flag = "Toggle 1",
+    Callback  = function(v)
+        settings.autotime = v
+    end
+}
+
+local toggle = section:Toggle{
+    Name = "Ball mag",
+    Flag = "Toggle 1",
+    Callback  = function(v)
+        settings.mags = v
+    end
+}
+
+local toggle = section:Toggle{
+    Name = "AutoGuard",
+    Flag = "Toggle 1",
+    Callback  = function(v)
+        settings.autoguard = v
+    end
+}
+
+task.spawn(function()
+	while true do
+    	task.wait()
+
+		if game:GetService("Players").LocalPlayer.PlayerGui.Visual.Shooting.Visible == false or not settings.autotime then
+			continue
+		end
+
+		if settings.autotime and game:GetService("Players").LocalPlayer.PlayerGui.Visual.Shooting.Visible == true then
+			game:GetService("Players").LocalPlayer.PlayerGui.Visual.Shooting.Bar.Size = UDim2.new(1, 0, 1, 0)
+		end
+	end
+end)
+
+task.spawn(function()
+	while true do
+		task.wait()
+
+		if not settings.mags then
+			continue
+		end
+
+		if settings.mags then
+			for i, v in pairs(game.Workspace:GetChildren()) do
+				if v.name == "Basketball" then
+					v.Size = Vector3.new(20, 20, 20)
+				end
+			end
+		end
+	end
+end)
+
+task.spawn(function()
+	while true do
+		task.wait()
+
+		if not settings.autoguard then
+			continue
+		end
+
+		if settings.autoguard then
+			pcall(function()
+				for i, v in pairs(game.Players:GetPlayers()) do 
+					for i, v in pairs(v.Character:GetChildren()) do
+						if v.Name == "Basketball" then
+							local dist = (v.Parent.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude
+							if dist <= 15 then
+								game.Players.LocalPlayer.Character.Humanoid:MoveTo(v.Parent.HumanoidRootPart.Position)
+							end
+						end
+					end
+				end
+			end)
+		end
+	end
+end)
 print("WiiHub Basketball Legends loaded successfully")
 
 else
