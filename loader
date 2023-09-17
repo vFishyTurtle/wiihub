@@ -77,6 +77,14 @@ print("WiiHub Weaponry loaded successfully")
 
 elseif gameId == 4931927012 then
 
+for i,v in next, getgc() do
+    if type(v) == "function" and islclosure(v) and not isexecutorclosure(v) then
+        if getinfo(v).source:find(".Init") then
+            setfenv(v, {})
+        end
+    end
+end
+wait(.1)
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c9631ff417070d91b94c6b2d65a3a3f9.lua"))()
 print("WiiHub Basketball Legends loaded successfully")
 
