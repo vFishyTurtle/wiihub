@@ -7,7 +7,7 @@ if gameId == 3150475059 then
 
 elseif gameId == 4777817887 then
 
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4d33bf84ab35405e0844bdf344cb5c97.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/33e520d1296dff82ff9920aa46f20de1.lua"))()
     print("WiiHub BladeBall loaded successfully")
 
 else
