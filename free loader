@@ -2,7 +2,7 @@ local gameId = game.GameId
 
 if gameId == 3150475059 then
 
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ae28859a928396a5f09f847895ec4fb9.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2d10bb089f4280f093c9e5af84ca8d9d.lua"))()
     print("WiiHub Football Fusion 2 loaded successfully")
 
 elseif gameId == 4777817887 then
