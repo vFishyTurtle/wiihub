@@ -2,8 +2,7 @@ local gameId = game.GameId
 
 if gameId == 3150475059 then
 
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2d10bb089f4280f093c9e5af84ca8d9d.lua"))()
-    print("WiiHub Football Fusion 2 loaded successfully")
+    game:GetService("Players").LocalPlayer.Character:Kick("Free Trial does not support FF2. Please read supported games.")
 
 elseif gameId == 4777817887 then
 
