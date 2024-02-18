@@ -26,7 +26,7 @@ elseif gameId == 4777817887 then
 
 elseif gameId == 5166944221 then
 
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/061e5af6b41c15ad7f83b928e47b72d9.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/0c2ae8b9ed63ddfb6b16e54723a17d4a.lua"))()
     -- DeathBall
 
 elseif gameId == 88070565 then
