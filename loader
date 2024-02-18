@@ -7,47 +7,52 @@ if gameId == 4931927012 then
 elseif gameId == 3150475059 then
 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ae28859a928396a5f09f847895ec4fb9.lua"))()
-    print("WiiHub Football Fusion 2 loaded successfully")
+    -- print("WiiHub Football Fusion 2 loaded successfully")
     
 elseif gameId == 2766122154 then
 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/def49ec3ea7cf62237e9bb9322df6290.lua"))()
-    print("WiiHub Football Duels loaded successfully")
+    -- print("WiiHub Football Duels loaded successfully")
 
 elseif gameId == 601130232 then
 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5a326525c3c96db44069e25411625c75.lua"))()
-    print("WiiHub Bee Swarm Simulator loaded successfully")
+    -- print("WiiHub Bee Swarm Simulator loaded successfully")
 
 elseif gameId == 4777817887 then
 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4d33bf84ab35405e0844bdf344cb5c97.lua"))()
-    print("WiiHub BladeBall loaded successfully")
+    -- print("WiiHub BladeBall loaded successfully")
+
+elseif gameId == 5166944221 then
+
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/061e5af6b41c15ad7f83b928e47b72d9.lua"))()
+    -- DeathBall
 
 elseif gameId == 88070565 then
 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4759fffc1680a8e44a888d41ad7dced3.lua"))()
-    print("WiiHub bloxburg loaded successfully")
+    -- print("WiiHub bloxburg loaded successfully")
 
 elseif gameId == 111958650 then
 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e289dedbe727c48af275692ba9066a4f.lua"))()
-    print("WiiHub Arsenal loaded successfully")
+    -- print("WiiHub Arsenal loaded successfully")
 
 elseif gameId == 2382284116 then
 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/92d619de4e7420a149ab816692d0d762.lua"))()
-    print("WiiHub No Scope Arcade loaded successfully")
+    -- print("WiiHub No Scope Arcade loaded successfully")
 
 elseif gameId == 2249486280 then
 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/93bd9f8ccfa396a3f2ca7fb50f091b21.lua"))()
-    print("WiiHub Auto 3s loaded successfully")
+    -- print("WiiHub Auto 3s loaded successfully")
 
 elseif gameId == 2618778158 then
 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/93bd9f8ccfa396a3f2ca7fb50f091b21.lua"))()
-    print("WiiHub Auto 3s loaded successfully")
+    -- print("WiiHub Auto 3s loaded successfully")
 
 elseif gameId == 184199275 then
 
