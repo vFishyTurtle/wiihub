@@ -11,7 +11,7 @@ elseif gameId == 3150475059 then
 
 elseif gameId == 3747388906 then
 
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ae28859a928396a5f09f847895ec4fb9.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e4c12941b68449b632c3771985a2a5bb.lua"))()
     -- Fallen Survival
     
 elseif gameId == 2766122154 then
