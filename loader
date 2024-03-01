@@ -47,7 +47,7 @@ elseif gameId == 111958650 then
 
 elseif gameId == 2382284116 then
 
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/92d619de4e7420a149ab816692d0d762.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/75991987cefa5f24e2fc72de1873eb98.lua"))()
     -- print("WiiHub No Scope Arcade loaded successfully")
 
 elseif gameId == 2249486280 then
