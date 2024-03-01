@@ -2,7 +2,8 @@ local gameId = game.GameId
 
 if gameId == 4931927012 then
 
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c9631ff417070d91b94c6b2d65a3a3f9.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1083ea3ae7aaf2d28d1f100f3681cfa.lua"))()
+    -- basketball legends
 
 elseif gameId == 3150475059 then
 
