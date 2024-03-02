@@ -29,7 +29,7 @@ if gameId == 4931927012 then
     	end
     end
     wait(.5)
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1083ea3ae7aaf2d28d1f100f3681cfa.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bfc39445148932592091200fcba572ab.lua"))()
     -- basketball legends
 
 elseif gameId == 3150475059 then
