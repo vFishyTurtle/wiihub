@@ -2,43 +2,6 @@ local gameId = game.GameId
 
 if gameId == 4931927012 then
 
-
-    for i,v in next, getconnections(game:GetService("ScriptContext").Error) do
-        v:Disable()
-    end
-
-
-    for i,v in next, getconnections(game:GetService("ScriptContext").Warn) do
-        v:Disable()
-    end
-
-    local Old
-    Old= hookfunction(game:GetService("ContentProvider").PreloadAsync, function(...)
-      
-        if not checkcaller() then
-            return warn("Blocked.")
-        end
-    
-        return Old(...)
-    end)
-    
-    local Old2; Old2 = hookfunction(coroutine.wrap, function(Function)
-         if not checkcaller() then
-            if select(2, pcall(Old(Old(Function)))) ~= "C stack overflow" then
-                return Old2(Function)
-            else
-                return Function
-            end
-        end
-    end)
-    
-    for Index, Value in pairs(getgc(true)) do
-        if type(Value) == 'table' and getmetatable(Value) and type(getmetatable(Value)) == "table" and type(rawget(getmetatable(Value), "__mode")) == "string" and rawget(getmetatable(Value), "__mode"):find("v") then
-            getmetatable(Value).__mode = nil
-            warn("Bypassed Weak Tables!")
-        end
-    end
-
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1083ea3ae7aaf2d28d1f100f3681cfa.lua"))()
     -- basketball legends
 
