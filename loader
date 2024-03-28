@@ -50,10 +50,10 @@ elseif gameId == 111958650 then
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e289dedbe727c48af275692ba9066a4f.lua"))()
     -- print("WiiHub Arsenal loaded successfully")
 
-elseif gameId == 2382284116 then
+--[[elseif gameId == 2382284116 then
 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/75991987cefa5f24e2fc72de1873eb98.lua"))()
-    -- print("WiiHub No Scope Arcade loaded successfully")
+    -- print("WiiHub No Scope Arcade loaded successfully")]]
 
 elseif gameId == 2249486280 then
 
@@ -85,7 +85,7 @@ elseif gameId == 4476467139 then
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/56821685103fc947edb56b02e6b2553a.lua"))()
     print("WiiHub HeadTap loaded successfully")
 
-elseif gameId == 111958650 then
+--[[elseif gameId == 111958650 then
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/56821685103fc947edb56b02e6b2553a.lua"))()
 print("WiiHub Arsenal loaded successfully")
@@ -93,10 +93,10 @@ print("WiiHub Arsenal loaded successfully")
 elseif gameId == 1187091887 then
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/56821685103fc947edb56b02e6b2553a.lua"))()
-print("WiiHub Weaponry loaded successfully")
+print("WiiHub Weaponry loaded successfully")]]
 
 else
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b6fb75a5a9a8c69b316cab201e9e3e0d.lua"))()
-    print("Unsupported Game")
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f254d6153603e5c921b712b38dca4683.lua"))()
+    --print("WiiHub Universal")
 
 end
