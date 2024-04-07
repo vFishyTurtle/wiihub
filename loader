@@ -37,7 +37,7 @@ elseif gameId == 4777817887 then
 
 elseif gameId == 5166944221 then
 
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ed63e8b960449dc7973893e3f4bf408c.lua"))()
+    game:GetService("Players").LocalPlayer:Kick("WiiHub is no longer supported on deathball.")
     -- DeathBall
 
 elseif gameId == 88070565 then
