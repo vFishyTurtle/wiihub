@@ -20,6 +20,16 @@ elseif gameId == 2766122154 then
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e4c12941b68449b632c3771985a2a5bb.lua"))()
     -- print("WiiHub Football Duels loaded successfully")
 
+elseif gameId == 4293374620 then
+
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/48cb41fd75f86a66c74f5ca851afe05e.lua"))()
+    -- super league soccer
+
+elseif gameId == 4851783408 then
+
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/46ff6bad8c270b31d92934e9b1981342.lua"))()
+    -- real futball
+
 elseif gameId == 3032132418 then
 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/9fdba559297036973bce3654f63c729e.lua"))()
