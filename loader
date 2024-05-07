@@ -32,7 +32,7 @@ elseif gameId == 4851783408 then
 
 elseif gameId == 3032132418 then
 
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/9fdba559297036973bce3654f63c729e.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c6ff23246d50591fa66a2e6e44cb717f.lua"))()
     -- HCBB
 
 elseif gameId == 601130232 then
