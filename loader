@@ -22,7 +22,7 @@ elseif gameId == 2766122154 then
 
 elseif gameId == 4293374620 then
 
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/48cb41fd75f86a66c74f5ca851afe05e.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ab8a21d5e74dee443346c053737d028f.lua"))()
     -- super league soccer
 
 elseif gameId == 4851783408 then
