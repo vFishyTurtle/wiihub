@@ -27,7 +27,7 @@ elseif gameId == 4293374620 then
 
 elseif gameId == 4851783408 then
 
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/46ff6bad8c270b31d92934e9b1981342.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/196e58b941d60486a1168a9dcab9dcb8.lua"))()
     -- real futball
 
 elseif gameId == 3032132418 then
