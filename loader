@@ -1,3 +1,5 @@
+local gameId = game.GameId
+
 if gameId == 4931927012 then
 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bfc39445148932592091200fcba572ab.lua"))()
