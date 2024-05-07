@@ -110,7 +110,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/56821685103fc9
 print("WiiHub Weaponry loaded successfully")]]
 
 else
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f254d6153603e5c921b712b38dca4683.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2dc6d9308b5e44676616a6b3996eae6a.lua"))()
     --print("WiiHub Universal")
 
 end
