@@ -81,7 +81,7 @@ elseif gameId == 2618778158 then
 
 elseif gameId == 184199275 then
 
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/804aa56ae59dd16ef65f79032f2debd7.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/515a5cac62850e488490d41ab12fa73e.lua"))()
     print("WiiHub UF loaded successfully")
 
 elseif gameId == 4363131662 then
