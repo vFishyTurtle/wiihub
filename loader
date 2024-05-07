@@ -1,5 +1,7 @@
 game:GetService("Players").LocalPlayer:Kick("WiiHub down for maintnence 😊")
 
+local hi = false
+repeat wait() until hi
 local gameId = game.GameId
 
 if gameId == 4931927012 then
